@@ -69,7 +69,7 @@ function NewUser(): JSX.Element {
       <Link to={'/'}>К списку</Link>
       <form className="w-3/4 m-auto" ref={formRef} onSubmit={submitHandler}>
         <h1>Новый пользователь</h1>
-        {error && <h2 className="text-red">ERROR!</h2>}
+        {error && <h2 className="text-red">ERROR! Заполните все поля корректно</h2>}
         <div className="flex p-5 border-red-400 border my-4">
           <p>Имя: </p>
           <input

@@ -68,7 +68,7 @@ function Detail(): JSX.Element {
     <>
       <Link to={'/'}>К списку</Link>
       <form className="w-3/4 m-auto" ref={formRef} onSubmit={submitHandler}>
-        {error && <div className=" bg-red">Error!</div>}
+        {error && <div className=" bg-red">Error! Заполните все поля корректно</div>}
         <div className="flex border-b-2 py-5">
           <p>Name: </p>
           <input
