@@ -12,7 +12,6 @@ function Filter(): JSX.Element {
   allRoles = [...new Set(allRoles)];
   // Чекбокс архива
   const checkboxHandler = (event: ChangeEvent<HTMLInputElement>) => {
-    event.preventDefault();
     dispatch(changeArchive(String(event.target.checked)));
   };
   const selectHandler = (event: React.ChangeEvent<HTMLSelectElement>) => {
