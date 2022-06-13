@@ -10,6 +10,7 @@
     "@types/node": "^16.11.39",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "inputmask": "^5.0.7",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-redux": "^8.0.2",
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@types/inputmask": "^5.0.3",
     "tailwindcss": "^3.1.0"
   }
 }

@@ -14,6 +14,7 @@ function List(props: ListProps): JSX.Element {
             name={el.name}
             role={el.role}
             phone={el.phone}
+            id={el.id}
         />;
       })}
     </div>

@@ -1,6 +1,7 @@
 export enum AppRoutes {
     Main = '/',
-    Detail = '/detail'
+    Detail = '/detail',
+    NewUser = '/new_user'
 }
 
 export enum FilterTypes {
